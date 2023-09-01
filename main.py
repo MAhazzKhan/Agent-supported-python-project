@@ -10,7 +10,6 @@ new2 = car(new.make,"F-250","Raptor-R")
 new3 = seats(new2.make ,new2.model ,new2.varient ,"carbon fiber bucket")
 
 print(new3)
-print(new2)
 
 car1 = new2
 plane1 = plane("Boeing","747")
