@@ -1,4 +1,6 @@
 from ext import *
+import json
+
 new = car("Ford","Mustang","GT3")
 a = new.make
 del new.model
@@ -16,4 +18,4 @@ plane1 = plane("Boeing","747")
 bike1 = bike("Kawasaki","ninja H2R")
 
 for i in(car1,plane1,bike1):
-  print(i.make,i.model)
+  print(f'{i.make} {i.model}')
