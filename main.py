@@ -1,6 +1,5 @@
 from ext import *
 
-
 new = car("Ford","Mustang","GT3")
 a = new.make
 del new.model
