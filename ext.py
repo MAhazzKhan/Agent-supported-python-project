@@ -9,5 +9,8 @@ class car:
 
 class seats(car):
   def __init__(self,make,model,varient,type):
-    super.__init__(make,model,varient)
+    super().__init__(make,model,varient)
     self.type = type
+
+  def __str__(self):
+    return f'The {self.make} {self.model}\'s {self.varient} has {self.type} seats'
